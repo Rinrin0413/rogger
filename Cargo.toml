@@ -1,0 +1,12 @@
+[package]
+name = "rogger"
+description = "Logging macros for Rinrin.rs"
+version = "0.1.0"
+authors = ["Rinrin.rs <rinrin0413.valley@gmail.com>"]
+license-file = "LICENSE"
+repository = "https://github.com/Rinrin0413/rogger.git"
+readme = "README.md"
+keywords = ["rust", "log"]
+edition = "2021"
+
+[dependencies]
