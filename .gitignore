@@ -3,3 +3,4 @@ Cargo.lock
 
 /rogger_bin
 /.vscode
+merge-dev.sh
