@@ -23,7 +23,6 @@ but it is safer to do as above.
 
 ```rust
 use rogger::*;
-use chrono::Utc;
 use colored::Colorize;
 
 fn main() {
@@ -47,6 +46,12 @@ fn main() {
 }
 ```
 
-![example](./assets/images/ex.png)
+![example](./assets/images/ex_v0_1_1.png)
+
+# Features
+
+- `jst`: Use JST for timestamps.
+
+- `utc_jst`: Provide additional logging macros as `*_jst!()` in module `jst`.
 
 [![MIT](https://img.shields.io/github/license/Rinrin0413/rogger?color=%23A11D32&style=for-the-badge)](./LICENSE)
